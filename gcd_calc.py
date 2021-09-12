@@ -3,8 +3,8 @@
 def sort_gcd_calculations(first_integer,second_integer):
   '''
   Given first_integer and second_integer, returns main_gcd_calculator where
-  first_integer is the greater of the two inital given integers and 
-  second_integer is smaller. 
+  first_integer greater or equal to second_integer. In turns, this finds the 
+  Greatest Common Divisor between the two integers using Euclidean Algorithm
   '''
   if second_integer > first_integer:
     return main_gcd_calculator(second_integer,first_integer)
